@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Formulário com Validação</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="infos">
+            <h1 class="titulo">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+
+            <p class="descricao">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato
+                em menos de 24h.</p>
+        </div>
+
+        <div class="formulario">
+            <form>
+                <label for="nome-completo"></label>
+                <input class="input" type="text" id="nome-compelto" name="nome-completo" placeholder="Nome Completo *"
+                    required>
+                <p class="alerta">campo obrigatório</p>
+
+                <label for="nemail"></label>
+                <input class="input" type="email" id="email" name="email" placeholder="Email *" required>
+                <p class="alerta">campo obrigatório</p>
+
+                <label for="telefone"></label>
+                <input class="input" type="number" id="telefone" name="telefone" placeholder="Telefone *" required>
+                <p class="alerta">campo obrigatório</p>
+
+                <label for="mensagem"></label>
+                <textarea class="input textarea" name="mensagem" id="mensagem" placeholder="Mensagem *" required ></textarea>
+                <p class="alerta">campo obrigatório</p>
+            </form>
+
+            <h2>*campos obrigatórios</h2>
+
+            <button class="btn" type="submit">Enviar</button>
+        </div>
+    </main>
+
+    <footer>Feito por Ryan Paiva</footer>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
