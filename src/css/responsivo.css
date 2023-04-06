@@ -1,0 +1,57 @@
+@media (max-width: 1024px) {
+
+    .container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infos {
+        width: 100%;
+        margin: -15px 0 25px 60px;
+    }
+
+    .infos .titulo {
+        font-size: 3rem;
+        margin-bottom: 5px;
+    }
+
+    .infos .descricao {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .formulario {
+        width: 85%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .formulario .input {
+        height: 30px;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+    .formulario .input.textarea {
+        height: 200px;
+        width: 100%;
+    }
+
+    .formulario h2 {
+        font-size: 1.2rem;
+        margin: 5px;
+    }
+
+    .formulario .btn {
+        font-size: 1.2rem;
+        width: 90%;
+        height: 35px;
+        margin: 5px 0;
+    }
+
+    footer {
+        display: none;
+    }
+}
