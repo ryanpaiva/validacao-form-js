@@ -8,7 +8,7 @@
     }
 
     .infos {
-        width: 100%;
+        width: 90%;
         margin: -15px 0 25px 60px;
     }
 
@@ -19,11 +19,11 @@
 
     .infos .descricao {
         font-size: 1.2rem;
-        width: 100%;
+        width: 90%;
     }
 
     .formulario {
-        width: 85%;
+        width: 80%;
         margin: 0;
         padding: 15px;
     }
